@@ -1,0 +1,38 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "whats the weather in Landon ?",
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 21,
+            "end": 28,
+            "value": "Landon ",
+            "entity": "location"
+          }
+        ]
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "bye",
+        "entities": []
+      }
+    ]
+  }
+}
